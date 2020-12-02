@@ -285,13 +285,13 @@
     /* Discounts */
     .discounts-wrap .discounts-list {
         padding: 0;
-        border-left: 1px solid #e0e4f6;
+        border-left: 1px solid #ff1515;
     }
     .discounts-list .discounts-i {
         padding: 20px 15px 0 135px;
     }
     .discounts-wrap .discounts-info {
-        padding: 30px 0 0;
+        padding: 50px 0 0;
         position: relative;
         top: auto;
         bottom: auto;

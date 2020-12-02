@@ -7,14 +7,23 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
+import { WithlistComponent } from './header/withlist/withlist.component';
+import { SosanhComponent } from './header/sosanh/sosanh.component';
+import { AuthComponent } from './header/auth/auth.component';
+import { GiohangComponent } from './header/giohang/giohang.component';
 
 @NgModule({
+  
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    WithlistComponent,
+    SosanhComponent,
+    AuthComponent,
+    GiohangComponent
   ],
   imports: [
     BrowserModule,
