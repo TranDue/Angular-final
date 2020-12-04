@@ -1,69 +1,5 @@
-/*----------------------------------
-TABLE OF CONTENTS:
-------------------------------------
 
-1 - Reset
-2 - Header
-3 - Topmenu
-4 - Stylization
-5 - Breadcrumbs
-6 - Pagination
-7 - Frontpage Slider
-8 - Popular Products
-9 - Catalog | Gallery View
-10 - Catalog | List View
-11 - Catalog | Table View
-12 - Sidebar Categories
-13 - Sidebar Filter
-14 - Catalog Topbar
-15 - Products List
-16 - Single Product
-17 - Single Product Tabs
-18 - Single Product Related
-19 - Blog
-20 - Blog Post
-21 - Cart
-22 - Blog Posts
-23 - Reviews
-24 - Reviews List
-25 - Modal Form
-26 - Quick View
-27 - Elements
-28 - Pricing Table
-29 - Team
-30 - Contact Forms
-31 - Brands
-32 - Banners
-33 - Discounts
-34 - Newsletter
-35 - Iconbox 1
-36 - Iconbox 2
-37 - Counters
-38 - Social Links
-39 - Accordion
-40 - Select Styles
-41 - Footer
-42 - Error 404
-43 - Compare List
-
-----------------------------------*/
-
-/*----------------------------------
-1 - Reset
-----------------------------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -72,12 +8,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, figcaption, figure, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -220,7 +152,6 @@ body {
 }
  .social-icons li{
 	 display:flex;
-	 float: left;
 }
 .social-icons li a i {
 	padding: 11px 15px;
@@ -1584,9 +1515,7 @@ ul.b-crumbs {
 /*----------------------------------
 8 - Popular Products
 ----------------------------------*/
-.fr-pop-wrap {
 
-}
 .fr-pop-wrap .component-ttl {
 	margin-bottom: 35px;
 }
