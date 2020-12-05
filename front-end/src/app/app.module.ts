@@ -10,13 +10,13 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { CommonModule } from '@angular/common';
 @NgModule({
-  
+
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
   ],
   imports: [
     CommonModule,
