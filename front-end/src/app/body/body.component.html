@@ -23,11 +23,11 @@
                                                 <img class="images" [src]="book.avatar" alt="{{book.name}}">
                                                 <p class="prod-i-info">
                                                     <a href="#" class="prod-i-favorites"><span>Danh sách yêu thích</span><i class="fa fa-heart"></i></a>
-                                                    <a href="#" class="qview-btn prod-i-qview"><span>Xem Nhanh</span><i class="fa fa-search"></i></a>
+                                                    <a href="#" class="qview-btn prod-i-qview" data-toggle="modal" data-target="#myModal"><span>Xem Nhanh</span><i class="fa fa-search"></i></a>
                                                     <a class="prod-i-compare" href="#"><span>So sánh</span><i class="fa fa-bar-chart"></i></a>
                                                 </p>
                                                 <p class="prod-i-addwrap">
-                                                    <a href="#" class="prod-i-add">Xem chi tiết</a>
+                                                    <a href="#" class="prod-i-add">Thêm Giỏ hàng</a>
                                                 </p>
                                             </div>
                                             <div class="prod-sticker">
@@ -1008,139 +1008,30 @@
               </a>
             </div>
           </div>
-        <!-- Quick View Product - start -->
-        <div class="qview-modal">
-            <div class="prod-wrap">
-                <a href="product.html">
-                    <h1 class="main-ttl">
-                        <span>Reprehenderit adipisci</span>
-                    </h1>
-                </a>
-                <div class="prod-slider-wrap">
-                    <div class="prod-slider">
-                        <ul class="prod-slider-car">
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-                                    <img src="http://placehold.it/500x525" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x591">
-                                    <img src="http://placehold.it/500x591" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-                                    <img src="http://placehold.it/500x525" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="prod-thumbs">
-                        <ul class="prod-thumbs-car">
-                            <li>
-                                <a data-slide-index="0" href="#">
-                                    <img src="http://placehold.it/500x525" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#">
-                                    <img src="http://placehold.it/500x591" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#">
-                                    <img src="http://placehold.it/500x525" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="5" href="#">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a data-slide-index="6" href="#">
-                                    <img src="http://placehold.it/500x722" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="prod-cont">
-                    <p class="prod-actions">
-                        <a href="#" class="prod-favorites"><i class="fa fa-heart"></i> Add to Danh sách yêu thích</a>
-                        <a href="#" class="prod-compare"><i class="fa fa-bar-chart"></i> So sánh</a>
-                    </p>
-                    <div class="prod-skuwrap">
-                    </div>
-                    <div class="prod-info">
-                        <p class="prod-price">
-                            <b class="item_current_price">$238</b>
-                        </p>
-                        <p class="prod-qnt">
-                            <input type="text" value="1">
-                            <a href="#" class="prod-plus"><i class="fa fa-angle-up"></i></a>
-                            <a href="#" class="prod-minus"><i class="fa fa-angle-down"></i></a>
-                        </p>
-                        <p class="prod-addwrap">
-                            <a href="#" class="prod-add">Thêm vào giỏ hàng</a>
-                        </p>
-                    </div>
-                    <ul class="prod-i-props">
-                        <li>
-                            <b>SKU</b> 05464207
-                        </li>
-                        <li>
-                            <b>Manufacturer</b> Mayoral
-                        </li>
-                        <li>
-                            <b>Material</b> Cotton
-                        </li>
-                        <li>
-                            <b>Pattern Type</b> Print
-                        </li>
-                        <li>
-                            <b>Wash</b> Colored
-                        </li>
-                        <li>
-                            <b>Style</b> Cute
-                        </li>
-                        <li><a href="#" class="prod-showprops">All Features</a></li>
-                    </ul>
+        <!-- Quick View Product - start -->
+        <div class="modal-detail modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4> <a href="">Tran Due</a></h4>
+              </div>
+              <div class="modal-body">
+                <div class="col-sm-6" id="left-content">
+                    ảnh
                 </div>
+                <div class="col-sm-6" id="right-content">
+                    thông tin
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
+s          </div>
         </div>
+
         <!-- Quick View Product - end -->
     </section>
 </main>
